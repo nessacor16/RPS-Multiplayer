@@ -1,0 +1,86 @@
+/* Removing Global Margins */
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Optima, sans-serif;
+}
+
+section {
+    height: 80vh;
+    background-color: rgb(255, 141, 96);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    height: 210px;
+    widows: 210px;
+    border-radius: 5px;
+    
+}
+
+h2 {
+    font-size: 60px!important;
+    text-shadow:  1px 1px 1px rgb(5, 5, 75);
+    font-family: italic;
+    padding: 20px;
+}
+
+article {
+    margin-top: -450px;
+    pad: 30px;
+    width: 65%;
+    float: right;
+    display: grid;
+}
+
+.score {
+    color: rgb(29, 87, 29);
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro {
+    color: rgb(15, 138, 132);
+    text-shadow:  1px 1px 1px rgb(5, 5, 75);
+    font-family: italic;
+    padding: 20px;
+}
+
+
+.choices {
+    width: 400px;
+    height: 90px;
+    font-size: 30px;
+}
+
+
+.intro button,
+.hide button {
+    width: 200px;
+    height: 90px;
+    background: none;
+    color: rgb(228, 228, 182);
+    font-size: 30px;
+    background-color: rgb(238, 39, 39);
+    cursor: pointer;
+    transition: opacity 5.5s ease!important;
+}
+
+/* 
+.match {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease;
+} */
+
+.playerOne-hand {
+    margin-right: 100px;
+}
+
+
+.playerTwo-hand {
+    transform: rotateY(180deg);
+  
+}
