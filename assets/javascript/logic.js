@@ -1,3 +1,4 @@
+
 // Start Game function will fade out once the button is clicked-----
 
 var firebaseConfig = {
@@ -55,23 +56,29 @@ var choice = document.getElementsByClassName(`choices`)[0];
         var pTwoHand = document.querySelector(`.playerTwo-hand`)
 
 
-
-        // Player Two Choice...
-        var pTwoChoice = [`rock`, `paper`, `scissors`];
-
     })
+    // player Options
+    var playerOneChoice = ["rock", "paper", "scissors"];
+
+    var playerTwoChoice = ["rock", "paper", "scissors"];
+
+    playerOneChoice.array.forEach(choice => {
+        choice.addEventListener("click", function(){
+            console.log(this);
+        pOneHand = playerOneChoice;
+        pTwoHand = playerTwoChoice;
+
+        });
+    });
+    console.log(this);
+    console.log(this);
+    console.log(playerTwoChoice);
+    console.log(playerOneChoice);
 
 
 
 
-
-
-// ============================= Firebase onclick fucnctions ===================================
-    // On Click
-    
-  
-        // Now! go to https://fir-click-counter-7cdb9.firebaseio.com/ to see the impact to the DB
-    
+// Play Match
 
 
 
